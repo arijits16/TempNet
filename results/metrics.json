@@ -1,0 +1,24 @@
+{
+  "test_samples": 75,
+  "max_temperature": {
+    "ann": {
+      "mae": 1.2344,
+      "rmse": 1.5536
+    },
+    "baseline": {
+      "mae": 1.14,
+      "rmse": 1.383
+    }
+  },
+  "min_temperature": {
+    "ann": {
+      "mae": 0.6708,
+      "rmse": 0.8582
+    },
+    "baseline": {
+      "mae": 0.7093,
+      "rmse": 0.8845
+    }
+  },
+  "invalid_ann_predictions_max_le_min": 0
+}
